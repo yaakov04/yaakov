@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/yaakov04/yaakov/issues"
   },
-  "homepage": "https://github.com/yaakov04/yaakov#readme"
+  "homepage": "https://github.com/yaakov04/yaakov#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  }
 }
