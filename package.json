@@ -1,0 +1,22 @@
+{
+  "name": "yaakov",
+  "version": "1.0.0",
+  "description": "Portafolio personal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaakov04/yaakov.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Diego Briones",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yaakov04/yaakov/issues"
+  },
+  "homepage": "https://github.com/yaakov04/yaakov#readme"
+}
