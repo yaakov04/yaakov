@@ -13,24 +13,12 @@ module.exports = {
     },
     module: {
         rules: [{
-                test: /\.js?$/,
-                exclude: /node_modules/,
-                use: {
-                    loader: 'babel-loader'
-                }
-            },
-            {
-                test: /\.(jpg|png|gif)$/,
-                use: [{
-                    loader: "file-loader",
-                    options: {
-                        name: "[name].[ext]",
-                        outputPath: "img/",
-                        useRelativePath: true,
-                    }
-                }]
+            test: /\.js?$/,
+            exclude: /node_modules/,
+            use: {
+                loader: 'babel-loader'
             }
-        ]
+        }]
     },
     plugins: [
         new HtmlWebpackPlugin({
@@ -40,9 +28,14 @@ module.exports = {
         }),
         new CopyWebpackPlugin({
             patterns: [{
-                from: "./src/styles/style.css",
-                to: "./"
-            }]
+                    from: "./src/styles/style.css",
+                    to: "./"
+                },
+                {
+                    from: "./src/img/profile_picture.jpg",
+                    to: './img'
+                }
+            ]
         })
     ]
 }
