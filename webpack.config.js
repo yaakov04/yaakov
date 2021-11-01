@@ -38,10 +38,6 @@ module.exports = {
                 {
                     from: "./src/img/profile_picture.jpg",
                     to: './assets/img'
-                },
-                {
-                    from: "./src/img/hero.png",
-                    to: './assets/img'
                 }
             ]
         })
