@@ -6,7 +6,7 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'main.js'
+        filename: 'assets/main.js'
     },
     resolve: {
         extensions: ['.js']
@@ -29,11 +29,19 @@ module.exports = {
         new CopyWebpackPlugin({
             patterns: [{
                     from: "./src/styles/style.css",
-                    to: "./"
+                    to: "./assets/styles"
+                },
+                {
+                    from: "./src/styles/normalize.css",
+                    to: "assets/styles"
                 },
                 {
                     from: "./src/img/profile_picture.jpg",
-                    to: './img'
+                    to: './assets/img'
+                },
+                {
+                    from: "./src/img/hero.png",
+                    to: './assets/img'
                 }
             ]
         })
