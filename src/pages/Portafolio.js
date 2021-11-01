@@ -9,10 +9,8 @@ const Portafolio = () => {
         const allPage = allProjects.length / resultsPerPage;
         const previousPage = currentPage > 1 ? currentPage - 1 : 1;
         const nextPage = currentPage < allPage ? currentPage + 1 : allPage;
-        console.log(typeof(currentPage))
-        console.log(nextPage);
-
         const projects = projectsPerPage(allProjects, resultsPerPage, currentPage);
+
         const view = `
         <section class="entry section-portafolio">
             <h2>Portafolio</h2>
