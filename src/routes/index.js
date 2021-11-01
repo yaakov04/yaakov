@@ -1,11 +1,13 @@
-import Header from "../template/Header";
+import Header from '../template/Header';
 import Error404 from '../pages/Error404';
 import Home from "../pages/Home";
+import Portafolio from '../pages/Portafolio';
 import getHash from '../utils/getHash';
 import resolveRoutes from '../utils/resolveRoutes';
 
 const routes = {
-    '/': Home
+    '/': Home,
+    '/portafolio': Portafolio
 }
 
 const router = async() => {
