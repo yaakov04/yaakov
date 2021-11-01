@@ -215,6 +215,8 @@ ul {
 .pagination {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: .5rem;
 }
 
 .pagination button {
@@ -231,6 +233,10 @@ ul {
 
 .pagination button:last-of-type {
     margin-right: 0;
+}
+
+.pagination span {
+    margin-right: .7rem;
 }
 
 .pagination button i {
