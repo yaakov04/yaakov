@@ -40,8 +40,13 @@ const Portafolio = () => {
             'nombre': 'Proyecto 12'
         }, ];
         const resultsPerPage = 6;
-        let currentPage = getHash(2);
-        const nAllPage = allProjects.length / resultsPerPage;
+        const currentPage = parseInt(getHash(2));
+        const allPage = allProjects.length / resultsPerPage;
+        const previousPage = currentPage > 1 ? currentPage - 1 : 1;
+        const nextPage = currentPage < allPage ? currentPage + 1 : allPage;
+        console.log(typeof(currentPage))
+        console.log(nextPage);
+
         const projects = projectsPerPage(allProjects, resultsPerPage, currentPage);
         const view = `
         <section class="entry section-portafolio">
@@ -61,9 +66,9 @@ const Portafolio = () => {
                
             </div>
             <div class="pagination">
-                <button><i class="fas fa-chevron-left"></i></button>
-                <span>pagina ${currentPage} de ${nAllPage}</span>
-                <button><i class="fas fa-chevron-right"></i></button>
+                <a href="#/portafolio/${previousPage}"><i class="fas fa-chevron-left"></i></a>
+                <span>pagina ${currentPage} de ${allPage}</span>
+                <a href="#/portafolio/${nextPage}"><i class="fas fa-chevron-right"></i></a>
             </div>
         </section>
     `;
