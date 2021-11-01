@@ -219,7 +219,7 @@ ul {
     margin-top: .5rem;
 }
 
-.pagination button {
+.pagination a {
     border: none;
     border-radius: 50%;
     display: flex;
@@ -231,7 +231,7 @@ ul {
     padding: .7rem 1.2rem;
 }
 
-.pagination button:last-of-type {
+.pagination a:last-of-type {
     margin-right: 0;
 }
 
@@ -239,7 +239,7 @@ ul {
     margin-right: .7rem;
 }
 
-.pagination button i {
+.pagination a i {
     color: white;
     font-size: 2.5rem;
 }
