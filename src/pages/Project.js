@@ -1,9 +1,14 @@
+import allProjects from "../json/projects.json";
+import getHash from "../utils/getHash";
+
 const Project = () => {
-    const view = `
+        const idProject = parseInt(getHash(2));
+        const project = allProjects.filter(project => project.id === idProject)[0];
+        const view = `
         <section class="section-project entry">
-            <h2>Nombre del proyecto</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam repellat delectus voluptate illo, alias exercitationem porro officiis at fugit repudiandae, provident accusamus odit veniam magnam neque ducimus earum unde quia.</p>
-            <span><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a><a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-rocket"></i></a></span>
+            <h2>${project.nombre}</h2>
+            <p>${project.descripcion}</p>
+            <span><a href="${project.github}" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>${project.deploy ? `<a href="${project.deploy}" target="_blank" rel="noopener noreferrer"><i class="fas fa-rocket"></i></a>`:''}</span>
             <div class="project-gallery">
                 <figure>
                     <img src="https://i.imgur.com/ms2GRG4.png" alt="imagen de proyecto">

@@ -3,10 +3,9 @@ import getHash from "../utils/getHash";
 import allProjects from "../json/projects.json";
 
 const Portafolio = () => {
-        //const allProjects = null;
         const resultsPerPage = 6;
         const currentPage = parseInt(getHash(2));
-        const allPage = allProjects.length / resultsPerPage;
+        const allPage = Math.round(allProjects.length / resultsPerPage);
         const previousPage = currentPage > 1 ? currentPage - 1 : 1;
         const nextPage = currentPage < allPage ? currentPage + 1 : allPage;
         const projects = projectsPerPage(allProjects, resultsPerPage, currentPage);
