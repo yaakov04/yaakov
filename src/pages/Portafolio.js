@@ -17,7 +17,7 @@ const Portafolio = () => {
 
                 ${projects.map(project=>`
                     <article>
-                        <a href="/#/proyecto/${project.id}">
+                        <a href="#/proyecto/${project.id}">
                             <figure class="project">
                                 <img src="${project.thumbnail}" alt="imagen del proyecto">
                                 <figcaption>${project.nombre}</figcaption>
