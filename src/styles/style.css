@@ -20,7 +20,7 @@ html {
 body {
     background-color: var(--backgrondColor);
     font-family: 'Oswald', sans-serif;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 body,
@@ -270,6 +270,7 @@ ul {
 .project-gallery {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .section-project figure {
