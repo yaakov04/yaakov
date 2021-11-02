@@ -2,12 +2,14 @@ import Header from '../template/Header';
 import Error404 from '../pages/Error404';
 import Home from "../pages/Home";
 import Portafolio from '../pages/Portafolio';
+import Project from "../pages/Project"
 import getHash from '../utils/getHash';
 import resolveRoutes from '../utils/resolveRoutes';
 
 const routes = {
     '/': Home,
-    '/portafolio': Portafolio
+    '/portafolio': Portafolio,
+    '/proyecto': Project
 }
 
 const router = async() => {
