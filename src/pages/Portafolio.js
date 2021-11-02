@@ -19,7 +19,7 @@ const Portafolio = () => {
                     <article>
                         <a href="/#/proyecto/${project.id}">
                             <figure class="project">
-                                <img src="https://i.imgur.com/1WRt5BH.png" alt="imagen del proyecto">
+                                <img src="${project.thumbnail}" alt="imagen del proyecto">
                                 <figcaption>${project.nombre}</figcaption>
                             </figure>
                         </a>

@@ -1,85 +1,85 @@
 [{
     "id": 1,
-    "nombre": "Proyecto 1",
-    "descripcion": "",
-    "img": "",
-    "thumbnail": "",
-    "github": ""
+    "nombre": "Yaakov",
+    "descripcion": "Mi portafolio presenta un breve resumen sobre mi, las tecnologías que manejo, mis datos de contacto y algunos de mis proyectos de github.",
+    "img": ["https://i.imgur.com/i9Bupii.png"],
+    "thumbnail": "https://i.imgur.com/4uMIoWS.png",
+    "github": "https://github.com/yaakov04/yaakov"
 }, {
     "id": 2,
-    "nombre": "Proyecto 2",
-    "descripcion": "",
-    "img": "",
-    "thumbnail": "",
-    "github": ""
+    "nombre": "Construye",
+    "descripcion": "Proyecto con fines didacticos. Sitio web de una constructora. Las vistas estan contruidas con HTML, CSS y Javascript; y se muestran con PHP",
+    "img": ["https://i.imgur.com/ms2GRG4.png"],
+    "thumbnail": "https://i.imgur.com/1WRt5BH.png",
+    "github": "https://github.com/yaakov04/mi-primer-proyecto-construye"
 }, {
     "id": 3,
     "nombre": "Proyecto 3",
-    "descripcion": "",
-    "img": "",
-    "thumbnail": "",
-    "github": ""
+    "descripcion": "Quisque ante lacus, ullamcorper et pulvinar a, tempus nec mi. Morbi tincidunt iaculis libero a sollicitudin. Etiam sit amet vehicula nisl, nec auctor sapien. ",
+    "img": ["https://i.imgur.com/ms2GRG4.png"],
+    "thumbnail": "https://i.imgur.com/1WRt5BH.png",
+    "github": "https://github.com/yaakov04/mi-primer-proyecto-construye"
 }, {
     "id": 4,
     "nombre": "Proyecto 4",
-    "descripcion": "",
-    "img": "",
-    "thumbnail": "",
-    "github": ""
+    "descripcion": "Quisque ante lacus, ullamcorper et pulvinar a, tempus nec mi. Morbi tincidunt iaculis libero a sollicitudin. Etiam sit amet vehicula nisl, nec auctor sapien. ",
+    "img": ["https://i.imgur.com/ms2GRG4.png"],
+    "thumbnail": "https://i.imgur.com/1WRt5BH.png",
+    "github": "https://github.com/yaakov04/mi-primer-proyecto-construye"
 }, {
     "id": 5,
     "nombre": "Proyecto 5",
-    "descripcion": "",
-    "img": "",
-    "thumbnail": "",
-    "github": ""
+    "descripcion": "Quisque ante lacus, ullamcorper et pulvinar a, tempus nec mi. Morbi tincidunt iaculis libero a sollicitudin. Etiam sit amet vehicula nisl, nec auctor sapien. ",
+    "img": ["https://i.imgur.com/ms2GRG4.png"],
+    "thumbnail": "https://i.imgur.com/1WRt5BH.png",
+    "github": "https://github.com/yaakov04/mi-primer-proyecto-construye"
 }, {
     "id": 6,
     "nombre": "Proyecto 6",
-    "descripcion": "",
-    "img": "",
-    "thumbnail": "",
-    "github": ""
+    "descripcion": "Quisque ante lacus, ullamcorper et pulvinar a, tempus nec mi. Morbi tincidunt iaculis libero a sollicitudin. Etiam sit amet vehicula nisl, nec auctor sapien. ",
+    "img": ["https://i.imgur.com/ms2GRG4.png"],
+    "thumbnail": "https://i.imgur.com/1WRt5BH.png",
+    "github": "https://github.com/yaakov04/mi-primer-proyecto-construye"
 }, {
     "id": 7,
     "nombre": "Proyecto 7",
-    "descripcion": "",
-    "img": "",
-    "thumbnail": "",
-    "github": ""
+    "descripcion": "Quisque ante lacus, ullamcorper et pulvinar a, tempus nec mi. Morbi tincidunt iaculis libero a sollicitudin. Etiam sit amet vehicula nisl, nec auctor sapien. ",
+    "img": ["https://i.imgur.com/ms2GRG4.png"],
+    "thumbnail": "https://i.imgur.com/1WRt5BH.png",
+    "github": "https://github.com/yaakov04/mi-primer-proyecto-construye"
 }, {
     "id": 8,
     "nombre": "Proyecto 8",
-    "descripcion": "",
-    "img": "",
-    "thumbnail": "",
-    "github": ""
+    "descripcion": "Quisque ante lacus, ullamcorper et pulvinar a, tempus nec mi. Morbi tincidunt iaculis libero a sollicitudin. Etiam sit amet vehicula nisl, nec auctor sapien. ",
+    "img": ["https://i.imgur.com/ms2GRG4.png"],
+    "thumbnail": "https://i.imgur.com/1WRt5BH.png",
+    "github": "https://github.com/yaakov04/mi-primer-proyecto-construye"
 }, {
     "id": 9,
     "nombre": "Proyecto 9",
-    "descripcion": "",
-    "img": "",
-    "thumbnail": "",
-    "github": ""
+    "descripcion": "Quisque ante lacus, ullamcorper et pulvinar a, tempus nec mi. Morbi tincidunt iaculis libero a sollicitudin. Etiam sit amet vehicula nisl, nec auctor sapien. ",
+    "img": ["https://i.imgur.com/ms2GRG4.png"],
+    "thumbnail": "https://i.imgur.com/1WRt5BH.png",
+    "github": "https://github.com/yaakov04/mi-primer-proyecto-construye"
 }, {
     "id": 10,
     "nombre": "Proyecto 10",
-    "descripcion": "",
-    "img": "",
-    "thumbnail": "",
-    "github": ""
+    "descripcion": "Quisque ante lacus, ullamcorper et pulvinar a, tempus nec mi. Morbi tincidunt iaculis libero a sollicitudin. Etiam sit amet vehicula nisl, nec auctor sapien. ",
+    "img": ["https://i.imgur.com/ms2GRG4.png"],
+    "thumbnail": "https://i.imgur.com/1WRt5BH.png",
+    "github": "https://github.com/yaakov04/mi-primer-proyecto-construye"
 }, {
     "id": 11,
     "nombre": "Proyecto 11",
-    "descripcion": "",
-    "img": "",
-    "thumbnail": "",
-    "github": ""
+    "descripcion": "Quisque ante lacus, ullamcorper et pulvinar a, tempus nec mi. Morbi tincidunt iaculis libero a sollicitudin. Etiam sit amet vehicula nisl, nec auctor sapien. ",
+    "img": ["https://i.imgur.com/ms2GRG4.png"],
+    "thumbnail": "https://i.imgur.com/1WRt5BH.png",
+    "github": "https://github.com/yaakov04/mi-primer-proyecto-construye"
 }, {
     "id": 12,
     "nombre": "Proyecto 12",
-    "descripcion": "",
-    "img": "",
-    "thumbnail": "",
-    "github": ""
+    "descripcion": "Quisque ante lacus, ullamcorper et pulvinar a, tempus nec mi. Morbi tincidunt iaculis libero a sollicitudin. Etiam sit amet vehicula nisl, nec auctor sapien. ",
+    "img": ["https://i.imgur.com/ms2GRG4.png"],
+    "thumbnail": "https://i.imgur.com/1WRt5BH.png",
+    "github": "https://github.com/yaakov04/mi-primer-proyecto-construye"
 }]
