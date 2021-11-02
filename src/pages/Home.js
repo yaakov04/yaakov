@@ -10,7 +10,7 @@ const Home = () => {
                 </div>
                 <div class="curly-brace-content-row">
                     <span class="key-blue">&#34;descripción:&#34;</span>
-                    <span class="value-white">&#34;apasionado por la filosofía de la ciencia, la lógica, la programación y Linux. Mi meta es llegar a ser Backend Developer&#34;</span> ,
+                    <span class="value-white">&#34;Soy un apasionado por la filosofía de la ciencia, la lógica, la programación y Linux. Mi meta es llegar a ser Backend Developer&#34;</span> ,
                 </div>
                 <div class="curly-brace-content-row">
                     <span class="key-blue">&#34;tecnologías:&#34;</span>
