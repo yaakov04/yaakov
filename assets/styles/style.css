@@ -55,6 +55,10 @@ h2 {
     }
 }
 
+h3 {
+    text-align: center;
+}
+
 figure {
     margin: 0;
 }
@@ -99,6 +103,8 @@ ul {
     width: 15rem;
     border-radius: 50%;
     overflow: hidden;
+    border: solid .3rem rgb(78 78 78);
+    ;
 }
 
 @media(min-width:1024px) {
@@ -129,6 +135,7 @@ ul {
     height: 36.6rem;
     position: absolute;
     z-index: -3;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .nav-ul {
@@ -195,7 +202,8 @@ ul {
 
 .section-inicio,
 .section-portafolio,
-.section-project {
+.section-project,
+.section-sobre-mi {
     margin: 0 1.5rem;
     display: flex;
     flex-direction: column;
@@ -206,7 +214,8 @@ ul {
 @media(min-width:1024px) {
     .section-inicio,
     .section-portafolio,
-    .section-project {
+    .section-project,
+    .section-sobre-mi {
         margin-left: 4rem;
         min-height: 90vh;
     }
@@ -214,6 +223,65 @@ ul {
 
 
 /**section-inicio**/
+
+.section-inicio {
+    min-height: 100%;
+}
+
+.section-inicio h2 {
+    font-size: 4.3rem;
+    margin: 3.5rem 0 1rem 0;
+}
+
+@media(min-width:1024px) {
+    .section-inicio h2 {
+        font-size: 6.5rem;
+    }
+}
+
+.section-inicio h3 {
+    margin: 0;
+}
+
+@media(min-width:1024px) {
+    .section-inicio h3 {
+        text-align: left;
+        font-size: 3.3rem;
+    }
+}
+
+.section-inicio nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5rem;
+}
+
+@media(min-width:1024px) {
+    .section-inicio nav {
+        justify-content: start;
+    }
+}
+
+.section-inicio nav>a {
+    margin-right: 1rem;
+}
+
+.section-inicio nav>a:last-of-type {
+    margin-right: 0;
+}
+
+.section-inicio i {
+    font-size: 4.5rem;
+}
+
+@media(min-width:1024px) {
+    .section-inicio i {
+        font-size: 5.5rem;
+    }
+}
+
+
+/**section-sobre-mi**/
 
 .curly-brace {
     color: var(--pink);
@@ -227,6 +295,7 @@ ul {
 .curly-brace:last-of-type {
     display: block;
     margin-top: 1.8rem;
+    margin: 1.8rem 0 6rem 0;
 }
 
 .curly-brace-content-row {
@@ -254,6 +323,7 @@ ul {
 
 .portfolio-grid article {
     margin: 1.5rem 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 @media(min-width:1024px) {
