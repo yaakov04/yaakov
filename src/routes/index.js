@@ -2,6 +2,7 @@ import Header from '../template/Header';
 import MobileMenu from '../template/MobileMenu';
 import Error404 from '../pages/Error404';
 import Home from "../pages/Home";
+import AboutMe from "../pages/AboutMe";
 import Portafolio from '../pages/Portafolio';
 import Project from "../pages/Project"
 import getHash from '../utils/getHash';
@@ -10,6 +11,7 @@ import resolveRoutes from '../utils/resolveRoutes';
 const routes = {
     '/': Home,
     '/portafolio': Portafolio,
+    '/sobremi': AboutMe,
     '/proyecto': Project
 }
 

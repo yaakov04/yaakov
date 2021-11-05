@@ -2,6 +2,7 @@ const MobileMenu = () => {
     const view = `
         <nav>
             <a href="#"><i class="fas fa-home"></i></a>
+            <a href="#/sobremi"><i class="fas fa-user"></i></a>
             <a href="#/portafolio/1"><i class="fas fa-th-large"></i></a>
         </nav>
     `;
