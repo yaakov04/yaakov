@@ -103,6 +103,8 @@ ul {
     width: 15rem;
     border-radius: 50%;
     overflow: hidden;
+    border: solid .3rem rgb(78 78 78);
+    ;
 }
 
 @media(min-width:1024px) {
@@ -133,6 +135,7 @@ ul {
     height: 36.6rem;
     position: absolute;
     z-index: -3;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .nav-ul {
@@ -277,6 +280,9 @@ ul {
     }
 }
 
+
+/**section-sobre-mi**/
+
 .curly-brace {
     color: var(--pink);
 }
@@ -317,6 +323,7 @@ ul {
 
 .portfolio-grid article {
     margin: 1.5rem 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 @media(min-width:1024px) {
