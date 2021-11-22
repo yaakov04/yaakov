@@ -40,7 +40,7 @@ h1 {
 
 @media(min-width:1024px) {
     h1 {
-        font-size: 3.5rem;
+        font-size: 5.2rem;
     }
 }
 
@@ -323,7 +323,6 @@ ul {
 
 .portfolio-grid article {
     margin: 1.5rem 0;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 @media(min-width:1024px) {
@@ -352,6 +351,7 @@ ul {
 .project figcaption {
     display: flex;
     justify-content: center;
+    text-align: center;
     top: 33rem;
     font-size: 3.1rem;
 }
@@ -363,7 +363,7 @@ ul {
         height: 100%;
         padding: 2.5rem 0;
         background-color: rgba(50, 54, 59, 0.925);
-        top: 13rem;
+        top: 18rem;
         font-size: 2rem;
         transition: all .6s ease;
     }
